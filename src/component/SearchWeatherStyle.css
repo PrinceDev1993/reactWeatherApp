@@ -1,0 +1,113 @@
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    padding: 2rem;
+}
+
+.slider {
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slide 20s infinite;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100vh;
+    width: 100%;
+}
+
+
+@keyframes slide {
+    0% {
+        background-image: url("./img/header.jpeg");
+    }
+    20% {
+        background-image: url("./img/header.jpeg");
+    }
+    20.01% {
+        background-image: url("./img/IMG1.jpeg");
+    }
+    50% {
+        background-image: url("./img/IMG1.jpeg");
+    }
+    50.01% {
+        background-image: url("./img/project-3.jpg");
+    }
+    70% {
+        background-image: url("./img/project-3.jpg");
+    }
+    70.01% {
+        background-image: url("./img/working.jpeg");
+    }
+    100% {
+        background-image: url("./img/working.jpeg");
+    }
+
+}
+
+.card {
+    background-color: #000000d0;
+    color: #fff;
+    padding: 4rem 2rem;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 600px;
+    margin: 1em;
+}
+
+.search__icon {
+    color: #ffffff;
+    margin-left: 0px;
+    cursor: pointer;
+    background-color: #d3cccc2b;
+    padding: 2.3%;
+    border-top-right-radius: 20px;
+    /* width: 100px; */
+    min-width: 20px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar{
+    padding: 2%;
+    border-bottom-left-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background-color: #7c7c7c2b;
+    color: #fff;
+    width: 100%;
+}
+
+button {
+    padding: 2%;
+    border-radius: 5px;
+    width: 35px;
+    background-color: #ffffff9d;
+    transition: all ease-in-out 0.2s;
+    color: #fff;
+}
+
+.weather {
+    text-align: center;
+    line-height: 30px;
+}
+
+.date {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.icon {
+    width: 60px;
+}
