@@ -1,4 +1,4 @@
-##PROJECT LIVE LINK
+## PROJECT LIVE LINK
 https://my-react-weather-app1.netlify.app/
 
 # Getting Started with Create React App
